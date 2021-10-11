@@ -1,0 +1,57 @@
+.detail {
+  background-color: rgb(255, 255, 255);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 95vw;
+  height: 90vh;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+}
+
+.detail-left {
+  width: 48%;
+  height: 100%;
+}
+
+.detail-right {
+  width: 48%;
+  height: 100%;
+}
+
+.detail-header {
+  margin-top: 30px;
+  height: 3%;
+  width: 100%;
+}
+
+.detail-profile-view {
+  width: 100%;
+  height: 30%;
+  margin-top: 10%;
+}
+
+.detail-buttons {
+  margin-top: 5%;
+  width: 100%;
+  height: 10%;
+}
+
+.detail-comment-view {
+  margin-top: 5%;
+  width: 100%;
+  height: 90%;
+}
+
+.detail-information-view {
+  width: 100%;
+  height: 50%;
+}
+
+.detail-comment-input {
+  margin-top: -8%;
+  width: 100%;
+  height: 10%;
+}

@@ -1,0 +1,10 @@
+.add-button {
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    line-height: 25px;
+    border: solid black 1px;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

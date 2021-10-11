@@ -1,0 +1,21 @@
+.comment-input-wrapper {
+  display: flex;
+}
+
+.comment-input {
+  width: 87%;
+  height: 40px;
+  margin-right: 1%;
+  border-radius: 5px;
+  background-color: rgb(243, 243, 243);
+}
+
+.comment-button {
+  margin-left: 1%;
+  width: 13%;
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: rgb(175, 175, 175);
+  font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.pop-modal-wrapper.show {
+  display: block;
+}
+
+.pop-modal-wrapper.hide {
+  display: none;
+}
+
+.pop-context {
+  text-align: center;
+  margin-top: 100px;
+}
+.pop-modal-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.pop-button {
+  width: 125px;
+  height: 30px;
+  font-size: 12px;
+}

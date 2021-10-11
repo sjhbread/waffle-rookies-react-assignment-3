@@ -1,0 +1,50 @@
+.profile-view {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  margin-left: calc(50% - 300px);
+  margin-right: calc(50% - 300px);
+}
+
+.profile-img {
+  display: block;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: solid rgb(194, 194, 194) 1px;
+}
+
+.profile-view-name-and-grade {
+  margin-left: 70px;
+  display: inline-block;
+}
+.profile {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.name {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.grade {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.student-name {
+  margin-left: 50px;
+  color: gray;
+}
+
+.student-grade {
+  margin-left: 50px;
+  color: gray;
+}

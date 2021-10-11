@@ -1,0 +1,105 @@
+.confirm-wrapper.show {
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  align-items: center;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 999;
+}
+
+.confirm-wrapper.hide {
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 500ms, visibility 500ms;
+  z-index: 999;
+}
+
+.confirm-centered {
+  max-width: 45vw;
+  margin: 1.75rem auto;
+  display: flex;
+  align-items: center;
+  min-height: calc(100% - 1.75rem * 2);
+}
+
+.confirm-content {
+  width: 100%;
+  position: relative;
+  background-color: white;
+  background-clip: padding-box;
+  border: solid black 1px;
+}
+.confirm-header {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+.warning-img {
+  width: 55px;
+  height: 55px;
+}
+.warning-txt {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.confirm-body {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.confirm-footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  float: right;
+}
+
+/* 닫기 버튼 */
+.confirm-closer {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(214, 234, 255);
+  border: 0;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+/* 삭제 버튼 */
+.confirm-deleter {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(249, 216, 216);
+  border: 0;
+  border-radius: 10px;
+  font-size: 16px;
+}

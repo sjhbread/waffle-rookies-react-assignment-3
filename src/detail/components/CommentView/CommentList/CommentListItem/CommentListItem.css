@@ -1,0 +1,33 @@
+.comment-list-item {
+  margin-right: 10px;
+  width: 90%;
+  height: fit-content;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.comment-list-item:hover {
+  background-color: rgb(238, 238, 238);
+}
+.comment-list-item-layout {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-list-item-text {
+  display: block;
+  margin-left: 5px;
+  width: 60%;
+  color: black;
+  font-size: 14px;
+  word-break: break-all;
+  white-space: pre-line;
+}
+
+.comment-list-item-time {
+  color: rgb(136, 136, 136);
+  font-size: 12px;
+  margin-right: 5px;
+}

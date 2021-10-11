@@ -1,0 +1,42 @@
+.button-layout {
+  display: flex;
+  float: right;
+}
+
+.button-lock {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(196, 196, 196);
+  align-items: center;
+}
+
+.button-delete {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(249, 216, 216);
+  align-items: center;
+}
+
+.button-save {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(215, 255, 220);
+  align-items: center;
+}
+.button-img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
