@@ -1,0 +1,23 @@
+.header-wrapper {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  justify-content: space-between;
+}
+.header-layout {
+  display: flex;
+}
+
+.waffle-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.web-title {
+  margin-left: 20px;
+}
+
+.logout-button {
+  width: 100px;
+  height: 50px;
+}

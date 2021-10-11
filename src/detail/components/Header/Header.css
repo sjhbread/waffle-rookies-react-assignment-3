@@ -1,0 +1,16 @@
+.arrow-svg {
+  transform: rotate(180deg);
+}
+
+.header-lyaout {
+  align-items: center;
+}
+
+.guide-txt {
+  margin-left: 5px;
+}
+
+.go-back-btn {
+  background-color: white;
+  border: 0px;
+}

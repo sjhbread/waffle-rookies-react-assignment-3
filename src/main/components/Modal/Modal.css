@@ -1,0 +1,29 @@
+.modal-wrapper.show {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    opacity: 1;
+    transition: opacity 500ms;
+    z-index: 999;
+}
+
+.modal-wrapper.hide {
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 500ms, visibility 500ms;
+    z-index: 999;
+
+}

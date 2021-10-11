@@ -1,0 +1,30 @@
+.list-name {
+  width: 99%;
+  height: 50%;
+  list-style: none;
+}
+
+.title-list {
+  width: 100%;
+  border: solid gray 1px;
+  margin-left: -40px;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgb(196, 196, 196);
+  font-weight: bold;
+  display: flex;
+}
+
+.title-content {
+  width: 150px;
+  text-align: center;
+}
+
+.empty-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}

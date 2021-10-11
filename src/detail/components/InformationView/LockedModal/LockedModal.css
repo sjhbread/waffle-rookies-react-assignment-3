@@ -1,0 +1,32 @@
+.locked-modal-wrapper {
+  width: 45vw;
+  position: fixed;
+  height: 40.5%;
+  background-color: rgba(0, 0, 0, 0.2);
+  align-items: center;
+  z-index: 500;
+}
+
+.locked-modal-layout {
+  display: flex;
+  justify-content: center;
+  max-width: 40vw;
+  margin: 1.75rem auto;
+  align-items: flex-end;
+  min-height: calc(100% - 1.75rem * 2);
+}
+
+.lock-img {
+  margin-bottom: 30px;
+  width: 100px;
+  height: 130px;
+}
+
+.locked-modal-footer {
+  display: inline-block;
+  text-align: center;
+}
+
+.locked-modal-guidetxt {
+  margin-bottom: 30px;
+}

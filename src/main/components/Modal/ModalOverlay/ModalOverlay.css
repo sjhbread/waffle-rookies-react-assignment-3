@@ -1,0 +1,96 @@
+.modal-dialog-centered {
+  max-width: 40vw;
+  margin: 1.75rem auto;
+  display: flex;
+  align-items: center;
+  min-height: calc(100% - 1.75rem * 2);
+}
+
+.modal-content {
+  width: 100%;
+  position: relative;
+  background-color: white;
+  background-clip: padding-box;
+  border: solid black 1px;
+}
+
+.modal-body {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* 이름 div*/
+.modal-name {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+/* 이름 input */
+.name-input {
+  width: 700px;
+  background-color: rgb(244, 244, 244);
+  border: solid rgb(194, 194, 194) 1px;
+  height: 25px;
+}
+
+/* 학년 div */
+.modal-grade {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+/* 학년 input */
+.grade-input {
+  width: 700px;
+  background-color: rgb(244, 244, 244);
+  border: solid rgb(194, 194, 194) 1px;
+  height: 25px;
+}
+
+/* 프로필 input */
+.profile-input {
+  width: 700px;
+  background-color: rgb(244, 244, 244);
+  border: solid rgb(194, 194, 194) 1px;
+  height: 25px;
+}
+
+.txt {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.modal-footer {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  float: right;
+}
+
+/* 닫기 버튼 */
+.modal-closer {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 70px;
+  height: 35px;
+  background-color: rgb(194, 194, 194);
+  border: 0;
+  font-size: 16px;
+}
+
+/* 추가 버튼 */
+.modal-adder {
+  margin-left: 10px;
+  width: 70px;
+  height: 35px;
+  background-color: rgb(197, 248, 195);
+  border: 0;
+  font-size: 16px;
+}
